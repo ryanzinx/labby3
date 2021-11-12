@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ryan Wiratama"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-12 02:13:28 AM"/>
+        <attribute name="created" value="UnlhbiBXaXJhdGFtYTtERVNLVE9QLTkwNTU1S087MjAyMS0xMC0xMTsxMjoyNzoyOCBBTTszNTI0"/>
+        <attribute name="edited" value="UnlhbiBXaXJhdGFtYTtERVNLVE9QLTkwNTU1S087MjAyMS0xMS0xMjswMjoxMzoyOCBBTTs3OzM2MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nilai1, nilai2, terbesar" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Angka: &quot;" newline="True"/>
+            <output expression="&quot;Angka 1 :&quot;" newline="False"/>
+            <input variable="nilai1"/>
+            <output expression="&quot;Angka 2: &quot;" newline="False"/>
+            <input variable="nilai2"/>
+            <if expression="nilai1 &gt; nilai2">
+                <then>
+                    <assign variable="terbesar" expression="nilai1"/>
+                </then>
+                <else>
+                    <assign variable="terbesar" expression="nilai2"/>
+                </else>
+            </if>
+            <output expression="&quot;Nilai terbesar dari &quot;&amp;nilai1&amp;&quot; &quot;&amp;nilai2&amp;&quot; adalah &quot;&amp;terbesar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

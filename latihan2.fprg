@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ryan Wiratama"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-12 02:34:53 AM"/>
+        <attribute name="created" value="UnlhbiBXaXJhdGFtYTtERVNLVE9QLTkwNTU1S087MjAyMS0xMS0xMjswMTo1NTowNiBBTTszNTIx"/>
+        <attribute name="edited" value="UnlhbiBXaXJhdGFtYTtERVNLVE9QLTkwNTU1S087MjAyMS0xMS0xMjswMjozNDo1MyBBTTsxMTszNjc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, terbesar" type="Integer" array="False" size=""/>
+            <output expression="&quot;PROGRAM BILANGAN TERBESAR DARI 3 BUAH BILANGAN YANG DIINPUTKAN&quot;" newline="True"/>
+            <output expression="&quot;Masukkan bilangan pertama: &quot;" newline="False"/>
+            <input variable="A"/>
+            <output expression="&quot;Masukkan bilangan kedua: &quot;" newline="False"/>
+            <input variable="B"/>
+            <output expression="&quot;Masukkan bilangan ketiga: &quot;" newline="False"/>
+            <input variable="C"/>
+            <if expression="A&gt;B">
+                <then>
+                    <if expression="A&gt;C">
+                        <then>
+                            <output expression="A&amp;&quot; terbesar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="C&amp;&quot;terbesar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="B&gt;C">
+                        <then>
+                            <output expression="B&amp;&quot; terbesar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="C&amp;&quot; terbesar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
