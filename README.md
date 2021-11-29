@@ -20,7 +20,7 @@ while True:
 print ("\n bilangan terbesar adalah :", max)
 ```
 ## ScreenShot
-![ss 2](latihan2.png)
+![ss 2](latihan2.fprg)
 # Program latihan 3
 ## Source Code
 ```python
@@ -36,5 +36,5 @@ else:
 print("Nilai terbesar dari " + str(nilai1) + " " + str(nilai2) + " adalah " + str(terbesar))
 ```
 ## ScreenShot
-![ss 3](latihan3.png)
+![ss 3](latihan3.fprg)
 
